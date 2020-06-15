@@ -1,0 +1,130 @@
+.spotShadow {
+  box-shadow: 0px 1rem 3rem 0px #cfe8cd; }
+
+body {
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif; }
+
+.logoFont {
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+  font-weight: 200 !important; }
+
+.text-primary {
+  color: #7CC576 !important; }
+
+.text-grey {
+  color: grey; }
+
+.text-white {
+  color: white; }
+
+.headerNav {
+  z-index: 100; }
+
+.nav-link {
+  color: white !important; }
+
+.sectionBanner {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  background-image: url("./../assits/homeBanner.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  clip-path: circle(67% at 95% -7%); }
+
+.headerMargin {
+  margin-top: 100vh; }
+
+.border-primary {
+  text-align: center;
+  padding-bottom: 2px;
+  background: linear-gradient(90deg, white 0%, #cfe8cd 35%, #7cc576 100%);
+  background-size: 100% 2px; }
+
+.dealCard {
+  border-radius: 15px;
+  background-color: #7CC576; }
+  .dealCardImg {
+    height: 23vw;
+    transform: translateY(-10%); }
+
+/*
+.card-img-top {
+    object-fit: contain;
+    object-position: top;
+    transform: translateY(-20%);
+}
+
+*/
+.HeaderTextBox {
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%); }
+
+.thinTitle {
+  font-weight: 100; }
+
+.thickTitle {
+  font-weight: 800; }
+
+.pr-10 {
+  padding-right: 10rem !important; }
+
+.btn-primary {
+  border: 1px solid #7CC576 !important;
+  background-color: #7CC576 !important;
+  padding: 10px 30px;
+  margin-top: 10px;
+  box-shadow: 0 0 0 0.2rem rgba(124, 197, 118, 0); }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:checked, .btn-primary:target {
+    background-color: #7CC576 !important;
+    box-shadow: 0 0 0 0.2rem rgba(124, 197, 118, 0.5) !important; }
+  .btn-primary:hover {
+    box-shadow: 0 0 0 0.2rem rgba(124, 197, 118, 0); }
+  .btn-primary-filled {
+    border: 1px solid white !important;
+    background-color: #7CC576;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 10px; }
+    .btn-primary-filled:hover, .btn-primary-filled:focus {
+      border: 1px solid #7CC576 !important;
+      background-color: white !important;
+      color: #7CC576; }
+
+.px-20 {
+  padding-right: 20rem;
+  padding-left: 20rem; }
+
+.imgWrap {
+  position: relative;
+  padding-bottom: 70%; }
+
+.imgInner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0; }
+
+.bg-primary {
+  background-color: #7CC576 !important; }
+
+.vest {
+  top: 50%;
+  transform: translateY(-50%); }
+
+.lady {
+  transform: translateY(-30%); }
+
+.bannerWrap {
+  position: relative;
+  padding-bottom: 55%; }
+
+.smoothBorder {
+  border-radius: 0px 16px 90px 0px; }
+
+.mt-10 {
+  margin-top: 10rem; }
+
+/*# sourceMappingURL=style.css.map */
