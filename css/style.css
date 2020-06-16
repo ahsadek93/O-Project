@@ -152,4 +152,18 @@ body {
 .rounded {
   border-radius: 20px 20px 20px 20px !important; }
 
+.midBanner {
+  background-image: url("../assits/midBanner.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: 100%;
+  /*
+      filter: blur(8px);
+  -webkit-filter: blur(8px); 
+  */ }
+
+.highLine {
+  line-height: 2; }
+
 /*# sourceMappingURL=style.css.map */
