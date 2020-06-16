@@ -155,15 +155,12 @@ body {
 .midBanner {
   background-image: url("../assits/midBanner.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 100%, 0;
   background-size: contain;
   height: 100%;
   /*
       filter: blur(8px);
   -webkit-filter: blur(8px); 
   */ }
-
-.highLine {
-  line-height: 2; }
 
 /*# sourceMappingURL=style.css.map */

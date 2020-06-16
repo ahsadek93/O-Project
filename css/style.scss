@@ -241,7 +241,7 @@ body {
 .midBanner {
     background-image: url('../assits/midBanner.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: (100%, 0);
     background-size: contain;
     height: 100%;
 
@@ -252,8 +252,4 @@ body {
 
 
 
-}
-
-.highLine {
-    line-height: 2;
 }
