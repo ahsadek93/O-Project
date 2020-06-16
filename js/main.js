@@ -18,5 +18,11 @@ annyang.start();
 
 var v = new Vue({
     el: '#app',
-    data: {}
+    data: {
+        msg: 'You can navigate through the website using Voice command. Say "down" to scroll down. And Say "UP" to scroll Up'
+    },
+
+    created() {
+        alert(this.msg)
+    }
 })
