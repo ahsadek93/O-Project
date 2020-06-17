@@ -16,6 +16,14 @@ annyang.start();
 
 
 
+$(document).ready(function () {
+    $('.sliderWrapper').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+});
+
 var v = new Vue({
     el: '#app',
     data: {
