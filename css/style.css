@@ -45,7 +45,6 @@ body {
   border-radius: 15px;
   background-color: #7CC576; }
   .dealCardImg {
-    height: 23vw;
     transform: translateY(-10%); }
 
 /*
@@ -121,6 +120,8 @@ body {
 .imgWrap {
   position: relative;
   padding-bottom: 70%; }
+  .imgWrap-lg {
+    padding-bottom: 100%; }
 
 .imgInner {
   position: absolute;

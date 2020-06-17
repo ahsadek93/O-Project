@@ -67,7 +67,6 @@ body {
 
 
     &Img {
-        height: 23vw;
         transform: translateY(-10%);
     }
 }
@@ -196,6 +195,10 @@ body {
 .imgWrap {
     position: relative;
     padding-bottom: 70%;
+
+    &-lg {
+        padding-bottom: 100%;
+    }
 }
 
 .imgInner {
