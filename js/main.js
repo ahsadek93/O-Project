@@ -29,7 +29,7 @@ if (annyang) {
         },
         'end': function () {
             window.scroll({
-                bottom: 0,
+                top: document.body.scrollHeight,
                 behavior: "smooth"
             })
         }
