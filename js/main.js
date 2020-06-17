@@ -3,13 +3,13 @@ if (annyang) {
     var commands = {
         'down': function () {
             window.scrollBy({
-                top: 500,
+                top: 900,
                 behavior: "smooth"
             })
         },
         'up': function () {
             window.scrollBy({
-                top: -500,
+                top: -900,
                 behavior: "smooth"
             })
 
