@@ -30,10 +30,11 @@ body {
   background-image: url("./../assits/homeBanner.png");
   background-position: bottom;
   background-repeat: no-repeat;
-  clip-path: circle(67% at 95% -7%); }
-  @media (min-width: 992px) {
+  clip-path: circle(0% at 0% 0%); }
+  @media (min-width: 576px) {
     .sectionBanner {
-      background-position: right; } }
+      background-position: right;
+      clip-path: circle(67% at 95% -7%); } }
 
 .headerMargin {
   margin-top: 100vh; }
