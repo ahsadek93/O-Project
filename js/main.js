@@ -19,13 +19,13 @@ annyang.start();
 $(document).ready(function () {
     $('.sliderWrapper').slick({
         infinite: true,
-        slidesToShow: 1,
+        slidesToShow: 3,
         arrows: true,
         responsive: [{
             breakpoint: 768,
             settings: {
                 infinite: true,
-                slidesToShow: 3,
+                slidesToShow: 1,
                 arrows: true,
             }
         }]
