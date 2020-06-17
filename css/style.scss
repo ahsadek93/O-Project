@@ -43,7 +43,7 @@ body {
     background-image: url('./../assits/homeBanner.png');
     background-position: bottom;
     background-repeat: no-repeat;
-    clip-path: circle(100% at 100% 0%);
+    clip-path: circle(40% at 100% 0%);
 
     @media (min-width: 576px) {
         background-position: right;
