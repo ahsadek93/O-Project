@@ -43,7 +43,12 @@ body {
     background-image: url('./../assits/homeBanner.png');
     background-position: right;
     background-repeat: no-repeat;
-    clip-path: circle(67% at 95% -7%)
+    clip-path: circle(67% at 95% -7%);
+
+    @media (min-width: 992px) {
+        background-position: bottom;
+
+    }
 }
 
 .headerMargin {
@@ -84,10 +89,8 @@ body {
     position: absolute;
     top: 40vh;
     transform: translateY(-50%);
-    background-color: rgba(207, 232, 205, 0.4) !important;
 
     @media (min-width: 768px) {
-        background-color: transparent !important;
         top: 50vh;
 
     }
@@ -289,7 +292,7 @@ p {
 #nav-collapse {
     background-color: $color-Primary;
 
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
         background-color: transparent;
     }
 

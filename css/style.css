@@ -31,6 +31,9 @@ body {
   background-position: right;
   background-repeat: no-repeat;
   clip-path: circle(67% at 95% -7%); }
+  @media (min-width: 992px) {
+    .sectionBanner {
+      background-position: bottom; } }
 
 .headerMargin {
   margin-top: 100vh; }
@@ -58,11 +61,9 @@ body {
 .HeaderTextBox {
   position: absolute;
   top: 40vh;
-  transform: translateY(-50%);
-  background-color: rgba(207, 232, 205, 0.4) !important; }
+  transform: translateY(-50%); }
   @media (min-width: 768px) {
     .HeaderTextBox {
-      background-color: transparent !important;
       top: 50vh; } }
 
 .thinTitle {
@@ -186,7 +187,7 @@ p {
 
 #nav-collapse {
   background-color: #7CC576; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     #nav-collapse {
       background-color: transparent; } }
 
