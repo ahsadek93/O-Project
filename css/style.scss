@@ -258,6 +258,12 @@ body {
 
 .slick-arrow {
     color: $color-Primary !important;
+    display: none;
+
+
+    @media (min-width: 768px) {
+        display: block;
+    }
 
     &::before {
         color: $color-Primary !important;

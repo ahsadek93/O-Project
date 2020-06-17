@@ -165,7 +165,11 @@ body {
   */ }
 
 .slick-arrow {
-  color: #7CC576 !important; }
+  color: #7CC576 !important;
+  display: none; }
+  @media (min-width: 768px) {
+    .slick-arrow {
+      display: block; } }
   .slick-arrow::before {
     color: #7CC576 !important; }
 
