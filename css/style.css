@@ -169,4 +169,7 @@ body {
   .slick-arrow::before {
     color: #7CC576 !important; }
 
+p {
+  font-size: .8rem !important; }
+
 /*# sourceMappingURL=style.css.map */
