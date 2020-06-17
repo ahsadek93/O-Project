@@ -193,6 +193,7 @@ p {
   @media (min-width: 992px) {
     #navbarSupportedContent {
       background-color: transparent;
-      position: relative; } }
+      position: relative;
+      top: 0; } }
 
 /*# sourceMappingURL=style.css.map */
