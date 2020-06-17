@@ -53,7 +53,7 @@ $(document).ready(function () {
 var v = new Vue({
     el: '#app',
     data: {
-        msg: 'You can navigate through the website using Voice command. Say "down" to scroll down. And Say "UP" to scroll Up'
+        msg: 'You can navigate through the website using Voice command. Say "down" to scroll down. And Say "UP" to scroll Up. You can also navigate through slide with saying"Next" and "Back"'
     },
 
     mounted() {
