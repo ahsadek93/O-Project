@@ -47,7 +47,7 @@ var v = new Vue({
         msg: 'You can navigate through the website using Voice command. Say "down" to scroll down. And Say "UP" to scroll Up'
     },
 
-    created() {
+    mounted() {
         alert(this.msg)
     }
 })
