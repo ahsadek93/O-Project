@@ -293,6 +293,9 @@ p {
 
 #navbarSupportedContent {
     background-color: $color-Primary;
+    position: absolute;
+    top: 10vh;
+    right: 0;
 
     @media (min-width: 992px) {
         background-color: transparent;

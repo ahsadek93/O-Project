@@ -187,7 +187,10 @@ p {
   list-style: none !important; }
 
 #navbarSupportedContent {
-  background-color: #7CC576; }
+  background-color: #7CC576;
+  position: absolute;
+  top: 10vh;
+  right: 0; }
   @media (min-width: 992px) {
     #navbarSupportedContent {
       background-color: transparent; } }
