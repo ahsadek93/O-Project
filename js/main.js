@@ -7,8 +7,15 @@ if (annyang) {
         'up': function () {
             window.scrollBy(0, -500)
 
-        }
+        },
+        'next': function () {
+            document.getElementsByClassName("slick-next").click()
+        },
+        'back': function () {
+            document.getElementsByClassName("slick-prev").click()
+        },
     }
+
 };
 
 annyang.addCommands(commands);
