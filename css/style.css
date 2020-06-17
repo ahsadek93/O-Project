@@ -186,10 +186,10 @@ p {
 .noBullets {
   list-style: none !important; }
 
-#nav-collapse {
+#navbarSupportedContent {
   background-color: #7CC576; }
   @media (min-width: 992px) {
-    #nav-collapse {
+    #navbarSupportedContent {
       background-color: transparent; } }
 
 /*# sourceMappingURL=style.css.map */
