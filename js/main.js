@@ -1,3 +1,4 @@
+var h = document.height;
 if (annyang) {
     // Let's define our first command. First the text we expect, and then the function it should call
     var commands = {
@@ -29,7 +30,7 @@ if (annyang) {
         },
         'end': function () {
             window.scroll({
-                top: document.body.scrollHeight,
+                top: h,
                 behavior: "smooth"
             })
         }
