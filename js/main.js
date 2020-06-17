@@ -21,6 +21,18 @@ if (annyang) {
             $(".slick-prev").click()
 
         },
+        'home': function () {
+            window.scroll({
+                top: 0,
+                behavior: "smooth"
+            })
+        },
+        'end': function () {
+            window.scroll({
+                bottom: 0,
+                behavior: "smooth"
+            })
+        }
     }
 
 };
