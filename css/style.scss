@@ -259,11 +259,10 @@ body {
     background-position: bottom right;
     background-size: contain;
     height: 100%;
+    position: absolute;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
 
-    /*
-        filter: blur(8px);
-    -webkit-filter: blur(8px); 
-    */
 
 }
 

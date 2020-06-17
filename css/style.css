@@ -166,10 +166,9 @@ body {
   background-position: bottom right;
   background-size: contain;
   height: 100%;
-  /*
-      filter: blur(8px);
-  -webkit-filter: blur(8px); 
-  */ }
+  position: absolute;
+  filter: blur(4px);
+  -webkit-filter: blur(4px); }
 
 .slick-arrow {
   color: #7CC576 !important;
