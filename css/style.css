@@ -57,8 +57,13 @@ body {
 */
 .HeaderTextBox {
   position: absolute;
-  top: 50vh;
-  transform: translateY(-50%); }
+  top: 40vh;
+  transform: translateY(-50%);
+  background-color: rgba(207, 232, 205, 0.4) !important; }
+  @media (min-width: 768px) {
+    .HeaderTextBox {
+      background-color: transparent !important;
+      top: 50vh; } }
 
 .thinTitle {
   font-weight: 100; }
@@ -178,5 +183,11 @@ p {
 
 .noBullets {
   list-style: none !important; }
+
+#nav-collapse {
+  background-color: #7CC576; }
+  @media (min-width: 768px) {
+    #nav-collapse {
+      background-color: transparent; } }
 
 /*# sourceMappingURL=style.css.map */

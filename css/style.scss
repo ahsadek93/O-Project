@@ -82,8 +82,15 @@ body {
 
 .HeaderTextBox {
     position: absolute;
-    top: 50vh;
+    top: 40vh;
     transform: translateY(-50%);
+    background-color: rgba(207, 232, 205, 0.4) !important;
+
+    @media (min-width: 768px) {
+        background-color: transparent !important;
+        top: 50vh;
+
+    }
 }
 
 
@@ -277,4 +284,13 @@ p {
 
 .noBullets {
     list-style: none !important;
+}
+
+#nav-collapse {
+    background-color: $color-Primary;
+
+    @media (min-width: 768px) {
+        background-color: transparent;
+    }
+
 }
