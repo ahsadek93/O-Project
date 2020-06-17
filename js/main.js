@@ -34,7 +34,7 @@ $(document).ready(function () {
             settings: {
                 infinite: true,
                 slidesToShow: 1,
-                arrows: false,
+                arrows: true,
             }
         }]
 
