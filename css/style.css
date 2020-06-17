@@ -165,5 +165,7 @@ body {
 
 .slick-arrow {
   color: #7CC576 !important; }
+  .slick-arrow::before {
+    color: #7CC576 !important; }
 
 /*# sourceMappingURL=style.css.map */

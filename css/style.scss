@@ -254,5 +254,10 @@ body {
 
 
 .slick-arrow {
-    color: $color-Primary !important
+    color: $color-Primary !important;
+
+    &::before {
+        color: $color-Primary !important;
+
+    }
 }
