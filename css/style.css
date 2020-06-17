@@ -163,7 +163,7 @@ body {
 .midBanner {
   background-image: url("../assits/midBanner.png");
   background-repeat: no-repeat;
-  background-position: 100%, 0;
+  background-position: bottom right;
   background-size: contain;
   height: 100%;
   /*
