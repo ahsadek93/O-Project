@@ -47,6 +47,17 @@ $(document).ready(function () {
     });
 });
 
+
+document.onload = function () {
+    alert('You can navigate using voice commands')
+
+}
+
+
+
+/*
+
+
 var v = new Vue({
     el: '#app',
     data: {
@@ -57,3 +68,5 @@ var v = new Vue({
         alert(this.msg)
     }
 })
+
+*/
