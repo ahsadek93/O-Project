@@ -2,7 +2,11 @@ if (annyang) {
     // Let's define our first command. First the text we expect, and then the function it should call
     var commands = {
         'down': function () {
-            window.scrollBy(0, 500)
+            window.scrollBy({
+                left: 0,
+                top: 500,
+                behavior: 'smooth'
+            })
         },
         'up': function () {
             window.scrollBy(0, -500)
