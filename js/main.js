@@ -9,10 +9,11 @@ if (annyang) {
 
         },
         'next': function () {
-            document.getElementsByClassName("slick-next").click()
+            $(".slick-next").click()
         },
         'back': function () {
-            document.getElementsByClassName("slick-prev").click()
+            $(".slick-prev").click()
+
         },
     }
 
