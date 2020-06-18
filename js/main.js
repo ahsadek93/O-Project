@@ -65,7 +65,7 @@ $(document).ready(function () {
 var v = new Vue({
     el: '#app',
     data: {
-        msg: 'You can navigate through the website using Voice command. Say "down" to scroll down. And Say "UP" to scroll Up. You can also navigate through slide with saying"Next" and "Back"'
+        msg: 'Due to COVID19 - You can now use Voice Commands to navigate through our website, and interact with the content. Say "Down" to scroll down, "up" to scroll up. "Home" to get backt to the top of the page. "End" to scroll down to the end of the page. And you can also interact with the silder using "Next" and "Back" to navigate between the slides.'
     },
 
     mounted() {
